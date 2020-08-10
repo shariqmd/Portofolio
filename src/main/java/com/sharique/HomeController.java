@@ -9,7 +9,7 @@ public class HomeController {
 	@GetMapping(value={"/","/home"})
 	public String home()
 	
-	{System.out.println("home controller called by sharique");
+	{System.out.println("home controller called by sharique ");
 		
 		return "index";
 	}
